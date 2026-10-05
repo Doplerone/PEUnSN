@@ -6,6 +6,13 @@ Uslov:
 -jedini prihvatljiv RGB format .jpg
 -slika MORA biti sacuvana kao input.jpg
 
+RUN:
+make
+./facedetect.exe
+
+CLEANUP:
+make clean
+
 1.Pokretanje :
 make
 ./facedetect.exe
